@@ -1,3 +1,12 @@
+(function () {
+    alert(0);
+    console.log(window);
+    function test () {
+        window.test = 'test';
+    };
+    test();
+})();
+
 // define global function
 window.store = {
     Canada_En:/ca.kobo/i,
